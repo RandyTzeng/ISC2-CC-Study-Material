@@ -106,17 +106,17 @@ Other classes of privileged user accounts may be created on a per-client or per-
 Typical measures used for moderating the potential for elevated risks from misuse or abuse of privileged accounts include the following: 
 用于缓和因误用或滥用特权账户而导致潜在风险升高的典型措施包括以下几种：
 
-    * More extensive and detailed logging than regular user accounts. The record of privileged actions is vitally important, as both a deterrent (for privileged account holders that might be tempted to engage in untoward activity) and an administrative control (the logs can be audited and reviewed to detect and respond to malicious activity). 
-        * 日志记录比普通用户账户更广泛、更详细。 特权行为的记录至关重要，既能起到威慑作用（对可能会从事不轨活动的特权账户持有者而言），又能起到管理控制作用（可对日志进行审计和审查，以发现和应对恶意活动）。
+* More extensive and detailed logging than regular user accounts. The record of privileged actions is vitally important, as both a deterrent (for privileged account holders that might be tempted to engage in untoward activity) and an administrative control (the logs can be audited and reviewed to detect and respond to malicious activity). 
+* 日志记录比普通用户账户更广泛、更详细。 特权行为的记录至关重要，既能起到威慑作用（对可能会从事不轨活动的特权账户持有者而言），又能起到管理控制作用（可对日志进行审计和审查，以发现和应对恶意活动）。
    
-    * More stringent access control than regular user accounts. As we will see emphasized in this course, even nonprivileged users should be required to use MFA methods to gain access to organizational systems and networks. Privileged users—or more accurately, highly trusted users with access to privileged accounts—should be required to go through additional or more rigorous authentication prior to those privileges. Just-in-time identity should also be considered as a way to restrict the use of these privileges to specific tasks and the times in which the user is executing them. 
-      * 比普通用户账户更严格的访问控制。正如我们将在本课程中强调的那样，即使是非特权用户也应被要求使用 MFA 方法来访问组织系统和网络。特权用户--或者更准确地说，可以访问特权账户的高信任度用户--应被要求在获得这些特权之前通过额外或更严格的身份验证。此外，还应考虑将及时身份验证作为一种方法，将这些特权的使用限制在特定任务和用户执行任务的时间范围内。
+* More stringent access control than regular user accounts. As we will see emphasized in this course, even nonprivileged users should be required to use MFA methods to gain access to organizational systems and networks. Privileged users—or more accurately, highly trusted users with access to privileged accounts—should be required to go through additional or more rigorous authentication prior to those privileges. Just-in-time identity should also be considered as a way to restrict the use of these privileges to specific tasks and the times in which the user is executing them. 
+* 比普通用户账户更严格的访问控制。正如我们将在本课程中强调的那样，即使是非特权用户也应被要求使用 MFA 方法来访问组织系统和网络。特权用户--或者更准确地说，可以访问特权账户的高信任度用户--应被要求在获得这些特权之前通过额外或更严格的身份验证。此外，还应考虑将及时身份验证作为一种方法，将这些特权的使用限制在特定任务和用户执行任务的时间范围内。
       
-    * Deeper trust verification than regular user accounts. Privileged account holders should be subject to more detailed background checks, stricter nondisclosure agreements and acceptable use policies, and be willing to be subject to financial investigation. Periodic or event-triggered updates to these background checks may also be in order, depending on the nature of the organization’s activities and the risks it faces. 
-     * 比普通用户账户更严格的信任验证。 特权账户持有人应接受更详细的背景调查、更严格的保密协议和可接受的使用政策，并愿意接受财务调查。根据组织活动的性质和面临的风险，定期或由事件触发更新这些背景调查也是有必要的。
+* Deeper trust verification than regular user accounts. Privileged account holders should be subject to more detailed background checks, stricter nondisclosure agreements and acceptable use policies, and be willing to be subject to financial investigation. Periodic or event-triggered updates to these background checks may also be in order, depending on the nature of the organization’s activities and the risks it faces. 
+* 比普通用户账户更严格的信任验证。 特权账户持有人应接受更详细的背景调查、更严格的保密协议和可接受的使用政策，并愿意接受财务调查。根据组织活动的性质和面临的风险，定期或由事件触发更新这些背景调查也是有必要的。
      
-    * More auditing than regular user accounts. Privileged account activity should be monitored and audited at a greater rate and extent than regular usage. 
- * 比普通用户账户更多的审计。 对特权账户活动的监控和审计力度和范围应大于普通用户账户。
+* More auditing than regular user accounts. Privileged account activity should be monitored and audited at a greater rate and extent than regular usage. 
+* 比普通用户账户更多的审计。 对特权账户活动的监控和审计力度和范围应大于普通用户账户。
 
 ### Segregation of Duties 
 ### 職責分離
